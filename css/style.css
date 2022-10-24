@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  position: relative;
+}
+
+#container>img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.current {
+  display: block !important;
+}
